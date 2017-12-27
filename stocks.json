@@ -1,0 +1,29 @@
+[
+	{
+		"script": "SHARDAMOTR",
+		"rcomPrice": "2727.00",
+		"rcomBy": "StockAxis",
+		"rcomDate": "21-Sep-2017",
+		"rcomTimeScale": "Wealth Builder Stock",
+		"targetPrice": "4125.00",
+		"stoploss": "2200.00"
+	},
+	{
+		"script": "NALCO",
+		"rcomPrice": "82.5",
+		"rcomBy": "Wealth",
+		"rcomDate": "25-Dec-2017",
+		"rcomTimeScale": "",
+		"targetPrice": "100",
+		"stoploss": ""
+	},
+	{
+		"script": "Everest Kanto",
+		"rcomPrice": "48.50",
+		"rcomBy": "Hemanth",
+		"rcomDate": "20-Jul-2017",
+		"rcomTimeScale": "12 Months",
+		"targetPrice": "95",
+		"stoploss": ""
+	}
+]
