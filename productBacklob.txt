@@ -1,0 +1,14 @@
+Version 1.0.0-0
+1. View Suggestions
+    User shall be able to view the active suggestion
+2. Track Suggestions
+    User shall be able to track the active suggestion along witht the returns
+3. Local deployment
+    User shall be able to check out the code and run the application in local system and launch the application.
+
+
+Backlog
+1. User should be able to login
+2. User should be able to add/select the stock in when he has invested.
+3. User should be able to view how much percent of the Corpus is being invested
+4. User should be able to add/edit/view this Corpus
