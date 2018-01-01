@@ -7,8 +7,8 @@ export class Stock {
   rcomDate: Date;
   rcomTimeScale: string;
   rcomBy: string;
-  rtargetPercentage: number;
-  days: number;
+  rtargetPercentage: string;
+  days: string;
 
   constructor() {
 
@@ -23,7 +23,7 @@ export class Stock {
 
     this.rcomPrice = data.rcomPrice;
     this.targetPrice = data.targetPrice;
-    this.rtargetPercentage = (((data.targetPrice - data.rcomPrice) / data.rcomPrice) * 100).toFixed(2);
+    this.rtargetPercentage = (((200000 - 10000) / 23) * 100).toFixed(2);
 
     this.rcomDate = new Date(data.rcomDate);
     this.days = Math.abs((firstDate.valueOf() - secondDate.valueOf()) / (24 * 60 * 60 * 1000)).toFixed(0);
