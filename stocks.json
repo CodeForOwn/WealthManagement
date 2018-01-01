@@ -26,6 +26,15 @@
 	},
 
 	{
+		"targetPrice": 350,
+		"rcomPrice": 176.65,
+		"rcomDate": "1-Jan-2018",
+		"rcomTimeScale": "4",
+		"rcomBy": "Hemanth",
+		"script": "WELENT"
+	},
+
+	{
 		"targetPrice": 250.0,
 		"rcomPrice": 120.0,
 		"rcomDate": "17-Nov-2017",
@@ -360,12 +369,12 @@
 	},
 
 	{
-		"targetPrice": 31.0,
-		"rcomPrice": 19.2,
-		"rcomDate": "10-Apr-2017",
-		"rcomTimeScale": "2",
+		"targetPrice": 220,
+		"rcomPrice": 157,
+		"rcomDate": "1-Jan-2010",
+		"rcomTimeScale": "4",
 		"rcomBy": "Wealth",
-		"script": "SUZLON"
+		"script": "RECLTD"
 	},
 
 	{
