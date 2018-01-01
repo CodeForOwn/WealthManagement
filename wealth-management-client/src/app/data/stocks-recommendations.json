@@ -1,8 +1,8 @@
 [{
-    "targetPrice": 70.0,
+    "targetPrice": 100.0,
     "rcomPrice": 52.9,
     "rcomDate": "12-Dec-2017",
-    "rcomTimeScale": "4",
+    "rcomTimeScale": "6 to 9 months",
     "rcomBy": "Hemanth",
     "script": "ALANKIT"
   },
@@ -10,7 +10,7 @@
     "targetPrice": 95.0,
     "rcomPrice": 48.5,
     "rcomDate": "20-Jul-2017",
-    "rcomTimeScale": "4",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "Hemanth",
     "script": "EKC"
   },
@@ -18,7 +18,7 @@
     "targetPrice": 140.0,
     "rcomPrice": 81.5,
     "rcomDate": "24-Oct-2017",
-    "rcomTimeScale": "4",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "Hemanth",
     "script": "JSWENERGY"
   },
@@ -26,7 +26,7 @@
     "targetPrice": 350,
     "rcomPrice": 176.65,
     "rcomDate": "1-Jan-2018",
-    "rcomTimeScale": "4",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "Hemanth",
     "script": "WELENT"
   },
@@ -34,7 +34,7 @@
     "targetPrice": 250.0,
     "rcomPrice": 120.0,
     "rcomDate": "17-Nov-2017",
-    "rcomTimeScale": "4",
+    "rcomTimeScale": "6 to 12 months",
     "stoploss": 90.0,
     "rcomBy": "Hemanth",
     "script": "SANGHIIND"
@@ -43,7 +43,7 @@
     "targetPrice": 350.0,
     "rcomPrice": 300.0,
     "rcomDate": "10-Oct-2015",
-    "rcomTimeScale": "4",
+    "rcomTimeScale": "6 to 12 months",
     "stoploss": 130.0,
     "rcomBy": "Hemanth",
     "script": "SBIN"
@@ -52,14 +52,16 @@
     "targetPrice": 280.0,
     "rcomPrice": 138.0,
     "rcomDate": "27-Sep-2017",
+    "rcomTimeScale": "6 to 12 months",
     "stoploss": 95.0,
+    "rcomBy": "Arvind Bajaj",
     "script": "KABRAEXTRU"
   },
   {
     "targetPrice": 3435.0,
     "rcomPrice": 2642.0,
     "rcomDate": "21-Nov-2017",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "StockAxis",
     "script": "AVANTI"
   },
@@ -67,7 +69,7 @@
     "targetPrice": 310.0,
     "rcomPrice": 208.0,
     "rcomDate": "18-Oct-2017",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "StockAxis",
     "script": "MOIL"
   },
@@ -75,7 +77,7 @@
     "targetPrice": 717.0,
     "rcomPrice": 478.0,
     "rcomDate": "28-Oct-2016",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "stoploss": 450.0,
     "rcomBy": "StockAxis",
     "script": "PLASTIBLEN"
@@ -84,7 +86,7 @@
     "targetPrice": 1060.0,
     "rcomPrice": 660.0,
     "rcomDate": "10-Nov-2015",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "stoploss": 600.0,
     "rcomBy": "StockAxis",
     "script": "PREMCO"
@@ -93,7 +95,7 @@
     "targetPrice": 3465.0,
     "rcomPrice": 2473.8,
     "rcomDate": "28-Oct-2016",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "stoploss": 2350.0,
     "rcomBy": "StockAxis",
     "script": "SHRIRAMCIT"
@@ -102,7 +104,7 @@
     "targetPrice": 875.0,
     "rcomPrice": 701.0,
     "rcomDate": "02-Nov-2017",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "StockAxis",
     "script": "TATASTEEL"
   },
@@ -110,7 +112,7 @@
     "targetPrice": 500.0,
     "rcomPrice": 330.0,
     "rcomDate": "01-Nov-2017",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "StockAxis",
     "script": "TEJASNET"
   },
@@ -118,7 +120,7 @@
     "targetPrice": 1668.0,
     "rcomPrice": 1113.5,
     "rcomDate": "28-Oct-2016",
-    "rcomTimeScale": "12",
+    "rcomTimeScale": "6 to 12 months",
     "stoploss": 1000.0,
     "rcomBy": "StockAxis",
     "script": "VTL"
@@ -127,7 +129,7 @@
     "targetPrice": 982.0,
     "rcomPrice": 785.0,
     "rcomDate": "17-Jul-2017",
-    "rcomTimeScale": "3",
+    "rcomTimeScale": "2 to 3 months",
     "stoploss": 667.0,
     "rcomBy": "StockAxis",
     "script": "APARINDS"
@@ -136,7 +138,7 @@
     "targetPrice": 2185.0,
     "rcomPrice": 1749.0,
     "rcomDate": "03-Aug-2017",
-    "rcomTimeScale": "3",
+    "rcomTimeScale": "2 to 3 months",
     "stoploss": 1485.0,
     "rcomBy": "StockAxis",
     "script": "AVANTI"
@@ -145,7 +147,7 @@
     "targetPrice": 515.0,
     "rcomPrice": 412.0,
     "rcomDate": "04-Dec-2017",
-    "rcomTimeScale": "3",
+    "rcomTimeScale": "2 to 3 months",
     "stoploss": 350.0,
     "rcomBy": "StockAxis",
     "script": "CAPACITE"
@@ -154,7 +156,7 @@
     "targetPrice": 1300.0,
     "rcomPrice": 1042.0,
     "rcomDate": "27-Dec-2017",
-    "rcomTimeScale": "3",
+    "rcomTimeScale": "2 to 3 months",
     "stoploss": 885.0,
     "rcomBy": "StockAxis",
     "script": "RAYMOND"
@@ -163,7 +165,7 @@
     "targetPrice": 585.0,
     "rcomPrice": 468.0,
     "rcomDate": "23-Nov-2017",
-    "rcomTimeScale": "3",
+    "rcomTimeScale": "2 to 3 months",
     "stoploss": 396.0,
     "rcomBy": "StockAxis",
     "script": "SARDAEN"
@@ -172,7 +174,7 @@
     "targetPrice": 250.0,
     "rcomPrice": 164.75,
     "rcomDate": "10-Oct-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 132.0,
     "rcomBy": "StockAxis",
     "script": "JMFINANCIL"
@@ -181,7 +183,7 @@
     "targetPrice": 134.0,
     "rcomPrice": 89.65,
     "rcomDate": "26-Dec-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 71.0,
     "rcomBy": "StockAxis",
     "script": "DAAWAT"
@@ -190,7 +192,7 @@
     "targetPrice": 771.0,
     "rcomPrice": 514.0,
     "rcomDate": "08-Nov-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 411.0,
     "rcomBy": "StockAxis",
     "script": "NESCO"
@@ -199,7 +201,7 @@
     "targetPrice": 386.0,
     "rcomPrice": 249.5,
     "rcomDate": "18-Sep-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 200.0,
     "rcomBy": "StockAxis",
     "script": "PARAGMILK"
@@ -208,7 +210,7 @@
     "targetPrice": 219.0,
     "rcomPrice": 145.0,
     "rcomDate": "21-Nov-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 116.0,
     "rcomBy": "StockAxis",
     "script": "PRAKASH"
@@ -217,7 +219,7 @@
     "targetPrice": 712.0,
     "rcomPrice": 480.0,
     "rcomDate": "04-Dec-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 380.0,
     "rcomBy": "StockAxis",
     "script": "PSPPROJECT"
@@ -226,7 +228,7 @@
     "targetPrice": 1620.0,
     "rcomPrice": 1080.0,
     "rcomDate": "26-Dec-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 865.0,
     "rcomBy": "StockAxis",
     "script": "RATNAMANI"
@@ -235,7 +237,7 @@
     "targetPrice": 4125.0,
     "rcomPrice": 2727.0,
     "rcomDate": "21-Sep-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 2200.0,
     "rcomBy": "StockAxis",
     "script": "SHARDA"
@@ -244,7 +246,7 @@
     "targetPrice": 482.0,
     "rcomPrice": 321.0,
     "rcomDate": "19-Sep-2017",
-    "rcomTimeScale": "6",
+    "rcomTimeScale": "3 to 6 months",
     "stoploss": 255.0,
     "rcomBy": "StockAxis",
     "script": "SURYAROSNI"
@@ -253,7 +255,7 @@
     "targetPrice": 200.0,
     "rcomPrice": 171.95,
     "rcomDate": "10-Jul-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "BEL"
   },
@@ -261,7 +263,7 @@
     "targetPrice": 650.0,
     "rcomPrice": 503.9,
     "rcomDate": "13-Nov-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "BHARTIARTL"
   },
@@ -269,7 +271,7 @@
     "targetPrice": 3500.0,
     "rcomPrice": 2405.6,
     "rcomDate": "06-Nov-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "DRREDDY"
   },
@@ -277,7 +279,7 @@
     "targetPrice": 1123.0,
     "rcomPrice": 829.55,
     "rcomDate": "18-Dec-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "GUJGASLTD"
   },
@@ -285,7 +287,7 @@
     "targetPrice": 520.0,
     "rcomPrice": 410.0,
     "rcomDate": "14-Aug-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "IOC"
   },
@@ -293,7 +295,7 @@
     "targetPrice": 915.0,
     "rcomPrice": 768.0,
     "rcomDate": "17-Jul-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "LTTS"
   },
@@ -301,7 +303,7 @@
     "targetPrice": 330.0,
     "rcomPrice": 248.9,
     "rcomDate": "31-Jul-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "MAHINDCIE"
   },
@@ -309,7 +311,7 @@
     "targetPrice": 100.0,
     "rcomPrice": 82.5,
     "rcomDate": "25-Dec-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "NATIONALUM"
   },
@@ -317,7 +319,7 @@
     "targetPrice": 320.0,
     "rcomPrice": 247.5,
     "rcomDate": "11-Dec-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "PARAGMILK"
   },
@@ -325,15 +327,15 @@
     "targetPrice": 1750.0,
     "rcomPrice": 1420.95,
     "rcomDate": "30-Oct-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "PNBHOUSING"
   },
   {
     "targetPrice": 220,
     "rcomPrice": 157,
-    "rcomDate": "1-Jan-2010",
-    "rcomTimeScale": "4",
+    "rcomDate": "1-Jan-2018",
+    "rcomTimeScale": "6 to 12 months",
     "rcomBy": "Wealth",
     "script": "RECLTD"
   },
@@ -341,7 +343,7 @@
     "targetPrice": 60.0,
     "rcomPrice": 46.7,
     "rcomDate": "04-May-2017",
-    "rcomTimeScale": "2",
+    "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "ZEELEARN"
   }

@@ -12,3 +12,6 @@ Backlog
 2. User should be able to add/select the stock in when he has invested.
 3. User should be able to view how much percent of the Corpus is being invested
 4. User should be able to add/edit/view this Corpus
+5. Include Version
+6. Create a User called Uncel Bob, who will stricly follow Stock Axis Suggestions, with X Corpus amount, and based on the same display the actuall profit/loss and display virtual profit/loss
+6. Create a User called Ramana, who will stricly follow Wealth Suggestions, with X Corpus amount, and based on the same display the actuall profit/loss and display virtual profit/loss
