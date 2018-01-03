@@ -21,9 +21,12 @@
     "@angular/platform-browser": "^5.0.0",
     "@angular/platform-browser-dynamic": "^5.0.0",
     "@angular/router": "^5.0.0",
+    "@coreui/angular": "^1.0.6",
+    "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
     "primeng": "^5.0.2",
     "rxjs": "^5.5.2",
+    "simple-line-icons": "^2.4.1",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {

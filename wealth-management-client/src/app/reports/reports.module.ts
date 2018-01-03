@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HttpModule } from '@angular/http';
 import { DataTableModule } from 'primeng/primeng';
-
+import { MarketPlaceService } from './recommendations/marketplace.service';
+import { ApiService } from './recommendations/api.service';
 import { RecommendationGridComponent } from './recommendations/recommendation-grid.component';
 
 @NgModule({
@@ -8,11 +11,13 @@ import { RecommendationGridComponent } from './recommendations/recommendation-gr
     RecommendationGridComponent
   ],
   imports: [
-    DataTableModule
+    DataTableModule,
+    CommonModule,
+    HttpModule
   ],
   exports: [
     RecommendationGridComponent
   ],
-  providers: []
+  providers: [MarketPlaceService, ApiService]
 })
 export class ReportsModule { }
