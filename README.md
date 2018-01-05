@@ -1,4 +1,4 @@
-# WealthManagement
+# Wealth Management
 Application to manage portfolio and wish-lists and track recommendations
 
 ## Installation and set-up
