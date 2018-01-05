@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Stock } from '../../modal/stock';
 import * as stocks from '../../data/stocks-recommendations.json';
 
-import { MarketPlaceService } from './marketplace.service';
+import { MarketPlaceService } from '../../services/marketplace.service';
 
 @Component({
   selector: 'recommendations-grid',
@@ -22,10 +22,9 @@ export class RecommendationGridComponent {
     stocksData.map(data => {
       let cmp = 0;
       this.mpservice.getCMPForScripts(data.script).subscribe(value => {
-        console.log('value is ', value);
-        console.log('value[0] is ', value[0]);
         let stock: Stock = new Stock();
-        stock.marketPrice = value[0].Price;
+        stock.marketPrice = value.quoteSummary.result[0].price.regularMarketPrice.raw;
+        console.log('regularMarketPrice is ', stock.marketPrice);
         stock.setData(data);
         console.log('achivedPercentage: ', stock.achivedPercentage)
         console.log('achivedPercentageClass: ', stock.achivedPercentageClass)
@@ -34,11 +33,7 @@ export class RecommendationGridComponent {
     });
   }
 
-  getAllScripts() {
-
-  }
-
-  parseData(data: any, cmp) : Stock {
+  parseData(data: any, cmp): Stock {
     let stock: Stock = new Stock();
     stock.setData(data);
     stock.marketPrice = cmp;
