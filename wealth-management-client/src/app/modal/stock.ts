@@ -1,4 +1,5 @@
 export class Stock {
+
   script: string;
   name: string;
   investPrice: number;
@@ -8,9 +9,10 @@ export class Stock {
   rcomDate: number;
   rcomTimeScale: string;
   rcomBy: string;
-  targetPercentage: string;
-  achivedPercentage: string;
+  targetPercentage: number;
+  achivedPercentage: number;
   achivedPercentageClass: string;
+  achivedPercentageWidth: number;
   days: string;
 
   constructor() {
@@ -26,14 +28,13 @@ export class Stock {
 
     this.rcomPrice = data.rcomPrice;
     this.targetPrice = data.targetPrice;
-    this.targetPercentage = (((this.targetPrice - this.rcomPrice) / this.rcomPrice) * 100).toFixed(2);
+    this.targetPercentage = (((this.targetPrice - this.rcomPrice) / this.rcomPrice) * 100);
     if (this.marketPrice !== undefined && this.marketPrice != 0) {
-      this.achivedPercentage = (((this.marketPrice - this.rcomPrice) / this.rcomPrice) * 100).toFixed(2);
-      console.log('achivedPercentage: ', this.achivedPercentage)
-      this.achivedPercentageClass = parseFloat(this.achivedPercentage) > 0 ? 'success' : 'danger';
-      if (parseFloat(this.achivedPercentage) < 0) {
-        this.achivedPercentage = (parseFloat(this.achivedPercentage) * -1).toFixed(2);
-      }
+      this.achivedPercentage = (((this.marketPrice - this.rcomPrice) / this.rcomPrice) * 100);
+      this.achivedPercentageWidth = Math.abs(this.achivedPercentage);
+      console.log('achivedPercentage: ', this.achivedPercentage);
+      this.achivedPercentageClass = (this.achivedPercentage) > 0 ? 'success' : 'danger';
+      console.log('achivedPercentageClass: ', this.achivedPercentageClass)
     }
 
     this.rcomDate = new Date(data.rcomDate).getTime();
