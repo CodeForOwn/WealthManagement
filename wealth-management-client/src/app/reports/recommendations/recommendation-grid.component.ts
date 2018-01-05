@@ -24,10 +24,12 @@ export class RecommendationGridComponent {
       this.mpservice.getCMPForScripts(data.script).subscribe(value => {
         let stock: Stock = new Stock();
         stock.marketPrice = value.quoteSummary.result[0].price.regularMarketPrice.raw;
+        stock.name = value.quoteSummary.result[0].price.longName;
+        console.log('name is ', stock.name);
         console.log('regularMarketPrice is ', stock.marketPrice);
         stock.setData(data);
-        console.log('achivedPercentage: ', stock.achivedPercentage)
-        console.log('achivedPercentageClass: ', stock.achivedPercentageClass)
+        console.log('achivedPercentage: ', stock.achivedPercentage);
+        console.log('achivedPercentageClass: ', stock.achivedPercentageClass);
         this.stockRecommendationList.push(stock);
       });
     });

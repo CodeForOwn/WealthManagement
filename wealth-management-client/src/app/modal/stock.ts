@@ -13,7 +13,7 @@ export class Stock {
   achivedPercentage: number;
   achivedPercentageClass: string;
   achivedPercentageWidth: number;
-  days: string;
+  days: number;
 
   constructor() {
 
@@ -29,16 +29,16 @@ export class Stock {
     this.rcomPrice = data.rcomPrice;
     this.targetPrice = data.targetPrice;
     this.targetPercentage = (((this.targetPrice - this.rcomPrice) / this.rcomPrice) * 100);
-    if (this.marketPrice !== undefined && this.marketPrice != 0) {
+    if (this.marketPrice !== undefined && this.marketPrice !== 0) {
       this.achivedPercentage = (((this.marketPrice - this.rcomPrice) / this.rcomPrice) * 100);
       this.achivedPercentageWidth = Math.abs(this.achivedPercentage);
       console.log('achivedPercentage: ', this.achivedPercentage);
       this.achivedPercentageClass = (this.achivedPercentage) > 0 ? 'success' : 'danger';
-      console.log('achivedPercentageClass: ', this.achivedPercentageClass)
+      console.log('achivedPercentageClass: ', this.achivedPercentageClass);
     }
 
     this.rcomDate = new Date(data.rcomDate).getTime();
-    this.days = Math.abs((firstDate.valueOf() - secondDate.valueOf()) / (24 * 60 * 60 * 1000)).toFixed(0);
+    this.days = Math.round(Math.abs((firstDate.valueOf() - secondDate.valueOf()) / (24 * 60 * 60 * 1000)));
 
     this.rcomTimeScale = data.rcomTimeScale;
     this.rcomBy = data.rcomBy;

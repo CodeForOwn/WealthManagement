@@ -40,15 +40,6 @@
     "script": "SANGHIIND"
   },
   {
-    "targetPrice": 350.0,
-    "rcomPrice": 300.0,
-    "rcomDate": "10-Oct-2015",
-    "rcomTimeScale": "6 to 12 months",
-    "stoploss": 130.0,
-    "rcomBy": "Hemanth",
-    "script": "SBIN"
-  },
-  {
     "targetPrice": 280.0,
     "rcomPrice": 138.0,
     "rcomDate": "27-Sep-2017",
@@ -346,5 +337,21 @@
     "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "ZEELEARN"
+  },
+  {
+    "targetPrice": 56,
+    "rcomPrice": 32.40,
+    "rcomDate": "22-Nov-2017",
+    "rcomTimeScale": "4 to 6 months",
+    "rcomBy": "Hemanth",
+    "script": "TANLA"
+  },
+  {
+    "targetPrice": 31,
+    "rcomPrice": 19.20,
+    "rcomDate": "10-Apr-2017",
+    "rcomTimeScale": "2 to 3 months",
+    "rcomBy": "Wealth",
+    "script": "SUZLON"
   }
 ]
