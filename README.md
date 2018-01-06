@@ -7,18 +7,7 @@ Application to manage portfolio and wish-lists and track recommendations
     - US2 : User shall be able to view the CMP of the suggestion and Target achived.
     - US3 : User shall be able to check out the code and run the application in local system and launch the application.
     - US4 : User should be able to see this investment along with suggestion and returns. @bsmaheshkumar
-        To view your own data in **My Portfolio** tab. Please enter details in [my-investment.json] (https://github.com/CodeForOwn/WealthManagement/blob/master/wealth-management-client/src/app/data/my-investment.json)
-        Sample Json format
-        ```json
-          {
-            "buyPrice": 350,
-            "buyQuantity": 1,
-            "buyDate": "1-Jan-2018",
-            "script": "WELENT"
-          }
-        ```
-        > my-investment.json is added to .getignore, so that your data is commited.
-
+        
 ## Bugs
     - Tooltip is not working
 
@@ -49,7 +38,25 @@ npm start
 > Install a CORS add on the browser and turn it on. This is required to make queries to yahoo server.
 
 ##  Invocation
-Launch `http://localhost:4n00/` in the browser
+### Launch 
+`http://localhost:4n00/` in the browser
 
-# And Create Wealth :1+
+### My Portfolio View
+
+To view your own data in **My Portfolio** tab. Please enter details in [my-investment.json](https://github.com/CodeForOwn/WealthManagement/blob/master/wealth-management-client/src/app/data/my-investment.json)
+        
+Sample Json format
+    ```json
+        {
+        "buyPrice": 350,
+        "buyQuantity": 1,
+        "buyDate": "1-Jan-2018",
+        "script": "WELENT"
+        }
+    ```
+
+> my-investment.json is added to .getignore, so that your data is commited.
+
+
+# And Enjoy Create Wealth for yourself and others.
 
