@@ -40,15 +40,6 @@
     "script": "SANGHIIND"
   },
   {
-    "targetPrice": 350.0,
-    "rcomPrice": 300.0,
-    "rcomDate": "10-Oct-2015",
-    "rcomTimeScale": "6 to 12 months",
-    "stoploss": 130.0,
-    "rcomBy": "Hemanth",
-    "script": "SBIN"
-  },
-  {
     "targetPrice": 280.0,
     "rcomPrice": 138.0,
     "rcomDate": "27-Sep-2017",
@@ -63,7 +54,7 @@
     "rcomDate": "21-Nov-2017",
     "rcomTimeScale": "6 to 12 months",
     "rcomBy": "StockAxis",
-    "script": "AVANTI"
+    "script": "AVANTIFEED"
   },
   {
     "targetPrice": 310.0,
@@ -81,15 +72,6 @@
     "stoploss": 450.0,
     "rcomBy": "StockAxis",
     "script": "PLASTIBLEN"
-  },
-  {
-    "targetPrice": 1060.0,
-    "rcomPrice": 660.0,
-    "rcomDate": "10-Nov-2015",
-    "rcomTimeScale": "6 to 12 months",
-    "stoploss": 600.0,
-    "rcomBy": "StockAxis",
-    "script": "PREMCO"
   },
   {
     "targetPrice": 3465.0,
@@ -141,7 +123,7 @@
     "rcomTimeScale": "2 to 3 months",
     "stoploss": 1485.0,
     "rcomBy": "StockAxis",
-    "script": "AVANTI"
+    "script": "AVANTIFEED"
   },
   {
     "targetPrice": 515.0,
@@ -240,7 +222,7 @@
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 2200.0,
     "rcomBy": "StockAxis",
-    "script": "SHARDA"
+    "script": "SHARDAMOTR"
   },
   {
     "targetPrice": 482.0,
@@ -346,5 +328,21 @@
     "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "ZEELEARN"
+  },
+  {
+    "targetPrice": 56,
+    "rcomPrice": 32.40,
+    "rcomDate": "22-Nov-2017",
+    "rcomTimeScale": "4 to 6 months",
+    "rcomBy": "Hemanth",
+    "script": "TANLA"
+  },
+  {
+    "targetPrice": 31,
+    "rcomPrice": 19.20,
+    "rcomDate": "10-Apr-2017",
+    "rcomTimeScale": "2 to 3 months",
+    "rcomBy": "Wealth",
+    "script": "SUZLON"
   }
 ]

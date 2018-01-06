@@ -1,9 +1,7 @@
-<p-dataTable [immutable]="false" [value]="stockRecommendationList" [sortMode]="multiple" [responsive]="true">
-  <p-column field="script" header="Script" sortable="true" filter="true" pTooltip="test"></p-column>
-  <!--p-column field="name" header="Name" sortable="true" filter="true" visible="false"></p-column -->
-  <p-column [style]="{'text-align':'middle'}" field="marketPrice" header="CMP (&#8377;)" sortable="true" width="150"></p-column>
-  <p-column [style]="{'text-align':'middle'}" field="rcomPrice" header="Suggested Price (&#8377;)" sortable="true"></p-column>
-  <p-column field="targetPrice" [style]="{'text-align':'middle'}" header="Target Price (&#8377;)" sortable="true"></p-column>
+<p-dataTable [immutable]="false" [value]="userInvestmentList" [sortMode]="multiple" [responsive]="true">
+  <p-column field="script" header="Script" sortable="true" filter="true"></p-column>
+  <p-column field="buyPrice" header="Buy Price (&#8377;)" sortable="true"></p-column>
+  
   <p-column field="targetPercentage" [style]="{'text-align':'middle'}" header="Target %" sortable="true">
     <ng-template let-col let-target="rowData" let-ri="rowIndex" pTemplate="body">
       <div style="margin: 5px;" class="progress progress-xs">
@@ -27,12 +25,25 @@
       </div>
     </ng-template>
   </p-column>
-  <p-column [style]="{'text-align':'middle'}" field="days" header="Days" sortable="true"></p-column>
-  <p-column field="rcomBy" header="Suggested By" sortable="true" filter="true"></p-column>
-  <p-column header="Suggestion Date" sortable="true">
+  
+  <p-column field="myPercentage" [style]="{'text-align':'middle'}" header="My Income %" sortable="true">
     <ng-template let-col let-target="rowData" let-ri="rowIndex" pTemplate="body">
-      <span>{{target.rcomDate | date:'dd-MMM-yyyy'}}</span>
+      <div style="margin: 5px;" class="progress progress-xs">
+        <div [className]="'progress-bar progress-bar-' + target.myPercentageClass" role="progressbar" [ngStyle]="{width: target.myPercentageWidth + '%'}"
+          aria-valuenow="" aria-valuemin="0" aria-valuemax="100">
+          <strong>
+            {{target.myPercentage | number : '1.2-2' }}%
+          </strong>
+        </div>
+      </div>
     </ng-template>
   </p-column>
-  <p-column field="rcomTimeScale" header="Target Timescale" sortable="true" filter="true"></p-column>
+  <p-column field="myProfit" header="My Profit/Loss (&#8377;)" sortable="true"></p-column>
+  <p-column field="buyOuality" header="Quality" sortable="true"></p-column>
+  <p-column [style]="{'text-align':'middle'}" field="mydays" header="Days" sortable="true"></p-column>
+  <p-column field="buyDate" header="Buy Date" sortable="true">
+    <ng-template let-col let-buy="rowData" let-ri="rowIndex" pTemplate="body">
+      <span>{{buy.buyDate | date:'dd-MMM-yyyy'}}</span>
+    </ng-template>
+  </p-column>
 </p-dataTable>

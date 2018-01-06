@@ -3,3 +3,7 @@
 @import "~primeng/resources/primeng.min.css";
 @import "~bootstrap/dist/css/bootstrap.min.css";
 @import "~simple-line-icons/css/simple-line-icons.css";
+
+.progress {
+    background-color: #C1BEBE !important;
+}
