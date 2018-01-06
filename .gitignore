@@ -147,5 +147,3 @@ venv.bak/
 .vscode/settings.json
 
 src/webpy-master/
-
-wealth-management-client/src/app/data/my-investment.json
