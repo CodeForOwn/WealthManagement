@@ -43,7 +43,7 @@ npm start
 
 ### My Portfolio View
 
-To view your own data in **My Portfolio** tab. Please enter details in [my-investment.json](https://github.com/CodeForOwn/WealthManagement/blob/master/wealth-management-client/src/app/data/my-investment.json)
+To view your own data in **My Portfolio** tab. Please enter details in your local copy of [my-investment.json](https://github.com/CodeForOwn/WealthManagement/blob/master/wealth-management-client/src/app/data/my-investment.json)
         
 Sample Json format
     ```json

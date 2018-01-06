@@ -1,8 +1,10 @@
 <p-dataTable [immutable]="false" [value]="userInvestmentList" [sortMode]="multiple" [responsive]="true">
   <p-column field="script" header="Script" sortable="true" filter="true"></p-column>
+  <p-column field="rcomPrice" header="Suggested Price (&#8377;)" sortable="true"></p-column>
+  <p-column field="marketPrice" header="CMP (&#8377;)" sortable="true"></p-column>
   <p-column field="buyPrice" header="Buy Price (&#8377;)" sortable="true"></p-column>
-  
-  <p-column field="targetPercentage" [style]="{'text-align':'middle'}" header="Target %" sortable="true">
+  <p-column field="targetPrice" header="Target Price (&#8377;)" sortable="true"></p-column>
+  <p-column field="targetPercentage" header="Target %" sortable="true">
     <ng-template let-col let-target="rowData" let-ri="rowIndex" pTemplate="body">
       <div style="margin: 5px;" class="progress progress-xs">
         <div class="progress-bar progress-bar-info" role="progressbar" [ngStyle]="{width: target.targetPercentage + '%'}" aria-valuenow="43"
@@ -13,7 +15,7 @@
     </ng-template>
   </p-column>
 
-  <p-column field="achivedPercentage" [style]="{'text-align':'middle'}" header="Target Achieved %" sortable="true">
+  <p-column field="achivedPercentage" header="Target Achieved %" sortable="true">
     <ng-template let-col let-target="rowData" let-ri="rowIndex" pTemplate="body">
       <div style="margin: 5px;" class="progress progress-xs">
         <div [className]="'progress-bar progress-bar-' + target.achivedPercentageClass" role="progressbar" [ngStyle]="{width: target.achivedPercentageWidth + '%'}"
@@ -25,8 +27,8 @@
       </div>
     </ng-template>
   </p-column>
-  
-  <p-column field="myPercentage" [style]="{'text-align':'middle'}" header="My Income %" sortable="true">
+
+  <p-column field="myPercentage" header="My Income %" sortable="true">
     <ng-template let-col let-target="rowData" let-ri="rowIndex" pTemplate="body">
       <div style="margin: 5px;" class="progress progress-xs">
         <div [className]="'progress-bar progress-bar-' + target.myPercentageClass" role="progressbar" [ngStyle]="{width: target.myPercentageWidth + '%'}"
@@ -40,10 +42,11 @@
   </p-column>
   <p-column field="myProfit" header="My Profit/Loss (&#8377;)" sortable="true"></p-column>
   <p-column field="buyOuality" header="Quality" sortable="true"></p-column>
-  <p-column [style]="{'text-align':'middle'}" field="mydays" header="Days" sortable="true"></p-column>
-  <p-column field="buyDate" header="Buy Date" sortable="true">
+  <p-column field="mydays" header="Days" sortable="true"></p-column>
+  <p-column field="rcomBy" header="Suggested By" sortable="true" filter="true"></p-column>
+  <!-- p-column field="buyDate" header="Buy Date" sortable="true">
     <ng-template let-col let-buy="rowData" let-ri="rowIndex" pTemplate="body">
       <span>{{buy.buyDate | date:'dd-MMM-yyyy'}}</span>
     </ng-template>
-  </p-column>
+  </p-column -->
 </p-dataTable>
