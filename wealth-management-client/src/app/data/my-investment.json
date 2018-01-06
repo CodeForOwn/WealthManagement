@@ -38,7 +38,7 @@
     "buyPrice": 3435.0,
     "buyQuantity": 1,
     "buyDate": "21-Nov-2017",
-    "script": "AVANTI"
+    "script": "AVANTIFEED"
   },
   {
     "buyPrice": 310.0,
@@ -51,12 +51,6 @@
     "buyQuantity": 1,
     "buyDate": "28-Oct-2016",
     "script": "PLASTIBLEN"
-  },
-  {
-    "buyPrice": 1060.0,
-    "buyQuantity": 1,
-    "buyDate": "10-Nov-2015",
-    "script": "PREMCO"
   },
   {
     "buyPrice": 3465.0,
@@ -87,13 +81,6 @@
     "buyQuantity": 1,
     "buyDate": "17-Jul-2017",
     "script": "APARINDS"
-  },
-  {
-    "buyPrice": 2185.0,
-    "buyQuantity": 1,
-    "buyDate": "03-Aug-2017",
-
-    "script": "AVANTI"
   },
   {
     "buyPrice": 515.0,
@@ -160,7 +147,7 @@
     "buyPrice": 4125.0,
     "buyQuantity": 1,
     "buyDate": "21-Sep-2017",
-    "script": "SHARDA"
+    "script": "SHARDAMOTR"
   },
   {
     "buyPrice": 482.0,
@@ -245,11 +232,5 @@
     "buyQuantity": 1,
     "buyDate": "22-Nov-2017",
     "script": "TANLA"
-  },
-  {
-    "buyPrice": 31,
-    "buyQuantity": 1,
-    "buyDate": "10-Apr-2017",
-    "script": "SUZLON"
   }
 ]

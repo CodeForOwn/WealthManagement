@@ -6,8 +6,6 @@ import { Constants } from '../core/constants';
 @Injectable()
 export class MarketPlaceService {
 
-  // private uri:string = 'http://52.230.1.144/stock/quote/';
-
   constructor(private apiService: ApiService) {
 
   }
@@ -15,7 +13,6 @@ export class MarketPlaceService {
   public getCMPForScripts(script: string): Observable<any> {
     script = script + '.NS';
     let api = Constants.api + script + Constants.queryString;
-    console.log('URI: ', api);
     return this.apiService.get(api);
   }
 }

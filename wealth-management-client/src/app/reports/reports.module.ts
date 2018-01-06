@@ -6,12 +6,12 @@ import { TooltipModule } from 'primeng/primeng';
 import { MarketPlaceService } from '../services/marketplace.service';
 import { ApiService } from '../services/api.service';
 import { RecommendationGridComponent } from './recommendations/recommendation-grid.component';
-import { UserviewGridComponent } from './userviews/userview-grid.component';
+import { PortfolioGridComponent } from './portfolio/portfolio-grid.component';
 
 @NgModule({
   declarations: [
     RecommendationGridComponent,
-    UserviewGridComponent
+    PortfolioGridComponent
   ],
   imports: [
     DataTableModule,
@@ -21,7 +21,7 @@ import { UserviewGridComponent } from './userviews/userview-grid.component';
   ],
   exports: [
     RecommendationGridComponent,
-    UserviewGridComponent
+    PortfolioGridComponent
   ],
   providers: [MarketPlaceService, ApiService]
 })

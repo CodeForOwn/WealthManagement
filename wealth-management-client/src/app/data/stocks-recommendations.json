@@ -54,7 +54,7 @@
     "rcomDate": "21-Nov-2017",
     "rcomTimeScale": "6 to 12 months",
     "rcomBy": "StockAxis",
-    "script": "AVANTI"
+    "script": "AVANTIFEED"
   },
   {
     "targetPrice": 310.0,
@@ -72,15 +72,6 @@
     "stoploss": 450.0,
     "rcomBy": "StockAxis",
     "script": "PLASTIBLEN"
-  },
-  {
-    "targetPrice": 1060.0,
-    "rcomPrice": 660.0,
-    "rcomDate": "10-Nov-2015",
-    "rcomTimeScale": "6 to 12 months",
-    "stoploss": 600.0,
-    "rcomBy": "StockAxis",
-    "script": "PREMCO"
   },
   {
     "targetPrice": 3465.0,
@@ -132,7 +123,7 @@
     "rcomTimeScale": "2 to 3 months",
     "stoploss": 1485.0,
     "rcomBy": "StockAxis",
-    "script": "AVANTI"
+    "script": "AVANTIFEED"
   },
   {
     "targetPrice": 515.0,
@@ -231,7 +222,7 @@
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 2200.0,
     "rcomBy": "StockAxis",
-    "script": "SHARDA"
+    "script": "SHARDAMOTR"
   },
   {
     "targetPrice": 482.0,
