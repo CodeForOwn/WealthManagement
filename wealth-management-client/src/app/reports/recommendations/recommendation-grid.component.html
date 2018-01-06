@@ -1,5 +1,6 @@
 <p-dataTable [immutable]="false" [value]="stockRecommendationList" [sortMode]="multiple" [responsive]="true">
-  <p-column field="script" header="Script" sortable="true" filter="true" pTooltip="name"></p-column>
+  <p-column field="script" header="Script" sortable="true" filter="true" pTooltip="test"></p-column>
+  <!--p-column field="name" header="Name" sortable="true" filter="true" visible="false"></p-column -->
   <p-column [style]="{'text-align':'middle'}" field="marketPrice" header="CMP (&#8377;)" sortable="true" width="150"></p-column>
   <p-column [style]="{'text-align':'middle'}" field="rcomPrice" header="Suggested Price (&#8377;)" sortable="true"></p-column>
   <p-column field="targetPrice" [style]="{'text-align':'middle'}" header="Target Price (&#8377;)" sortable="true"></p-column>

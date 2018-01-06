@@ -1,0 +1,10 @@
+<p-dataTable [immutable]="false" [value]="userInvestmentList" [sortMode]="multiple" [responsive]="true">
+  <p-column field="script" header="Script" sortable="true" filter="true"></p-column>
+  <p-column field="buyPrice" header="Buy Price (&#8377;)" sortable="true"></p-column>
+  <p-column field="quality" header="Quality" sortable="true"></p-column>
+  <p-column field="buyDate" header="Buy Date" sortable="true">
+    <ng-template let-col let-buy="rowData" let-ri="rowIndex" pTemplate="body">
+      <span>{{buy.buyDate | date:'dd-MMM-yyyy'}}</span>
+    </ng-template>
+  </p-column>
+</p-dataTable>

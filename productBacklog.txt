@@ -9,6 +9,7 @@ US4. My View : User should be able to see this investment along with suggestion 
 US5. Tooltip : User should be able to see the name on Company as a tooltip onhover the script
 US6. My View : User should be able view multiple buy for the same script
 US7. New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification
+US8. If do dont get the CMP for a give script, we should still be able to display availabled statis data.
 
     
 

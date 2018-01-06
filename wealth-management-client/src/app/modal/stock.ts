@@ -23,7 +23,6 @@ export class Stock {
     var firstDate = new Date(data.rcomDate);
     var secondDate = new Date();
     this.script = data.script;
-    this.name = data.name;
     this.investPrice = data.buyPrice;
 
     this.rcomPrice = data.rcomPrice;
