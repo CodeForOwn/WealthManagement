@@ -1,14 +1,14 @@
 Feature completed
-User shall be able to view the suggestion
-User shall be able to view the CMP of the suggestion and Target achived.
-User shall be able to check out the code and run the application in local system and launch the application.
+US1. User shall be able to view the suggestion
+US2.User shall be able to view the CMP of the suggestion and Target achived.
+US3. User shall be able to check out the code and run the application in local system and launch the application.
 
 
 Now
-My View : User should be able to see this investment along with suggestion and returns.
-Tooltip : User should be able to see the name on Company as a tooltip onhover the script
-My View : User should be able view multiple buy for the same script
-New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification
+US4. My View : User should be able to see this investment along with suggestion and returns.
+US5. Tooltip : User should be able to see the name on Company as a tooltip onhover the script
+US6. My View : User should be able view multiple buy for the same script
+US7. New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification
 
     
 
