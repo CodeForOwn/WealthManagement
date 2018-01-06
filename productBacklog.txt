@@ -1,13 +1,19 @@
-Version 1.0.0-0
-1. View Suggestions
-    User shall be able to view the active suggestion
-2. Track Suggestions
-    User shall be able to track the active suggestion along witht the returns
-3. Local deployment
-    User shall be able to check out the code and run the application in local system and launch the application.
+Feature completed
+User shall be able to view the suggestion
+User shall be able to view the CMP of the suggestion and Target achived.
+User shall be able to check out the code and run the application in local system and launch the application.
 
 
-Backlog
+Now
+My View : User should be able to see this investment along with suggestion and returns.
+Tooltip : User should be able to see the name on Company as a tooltip onhover the script
+My View : User should be able view multiple buy for the same script
+New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification
+
+    
+
+
+WishList
 1. User should be able to login
 2. User should be able to add/select the stock in when he has invested.
 3. User should be able to view how much percent of the Corpus is being invested
