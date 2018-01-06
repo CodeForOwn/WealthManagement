@@ -78,7 +78,7 @@ export class Stock {
     this.mydays = Math.round(Math.abs((firstDate.valueOf() - secondDate.valueOf()) / (24 * 60 * 60 * 1000)));
 
     if (this.marketPrice !== undefined && this.marketPrice !== 0 && this.buyPrice !== undefined && this.buyPrice !== 0) {
-      this.myPercentage = (((this.buyPrice - this.rcomPrice) / this.rcomPrice) * 100);
+      this.myPercentage = (((this.marketPrice - this.buyPrice) / this.buyPrice) * 100);
       this.myPercentageWidth = Math.abs(this.myPercentage);
       this.myPercentageClass = (this.myPercentage) > 0 ? 'success' : 'danger';
       this.myProfit = Math.round((this.marketPrice - this.buyPrice) * this.buyOuality);
