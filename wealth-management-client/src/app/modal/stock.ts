@@ -81,7 +81,7 @@ export class Stock {
       this.myPercentage = (((this.buyPrice - this.rcomPrice) / this.rcomPrice) * 100);
       this.myPercentageWidth = Math.abs(this.myPercentage);
       this.myPercentageClass = (this.myPercentage) > 0 ? 'success' : 'danger';
-      this.myProfit = Math.round((this.buyPrice - this.rcomPrice) * this.buyOuality);
+      this.myProfit = Math.round((this.marketPrice - this.buyPrice) * this.buyOuality);
     }
 
   }

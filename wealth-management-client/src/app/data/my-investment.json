@@ -1,18 +1,18 @@
 [{
-    "buyPrice": 100.0,
-    "buyQuantity": 1,
+    "buyPrice": 0,
+    "buyQuantity": 0,
     "buyDate": "12-Dec-2017",
     "script": "ALANKIT"
   },
   {
-    "buyPrice": 95.0,
-    "buyQuantity": 1,
+    "buyPrice": 47.84,
+    "buyQuantity": 500,
     "buyDate": "20-Jul-2017",
     "script": "EKC"
   },
   {
-    "buyPrice": 140.0,
-    "buyQuantity": 1,
+    "buyPrice": 86.10,
+    "buyQuantity": 518,
     "buyDate": "24-Oct-2017",
     "script": "JSWENERGY"
   },
