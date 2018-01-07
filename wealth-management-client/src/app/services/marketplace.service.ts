@@ -10,8 +10,13 @@ export class MarketPlaceService {
 
   }
 
-  public getCMPForScripts(script: string): Observable<any> {
-    script = script + '.NS';
+  public getCMPForScripts(script: string, exchange: string): Observable<any> {
+    if (exchange === 'NSE') {
+      script = script + '.NS';
+    }
+    if (exchange === 'BSE') {
+      script = script + '.BO';
+    }
     let api = Constants.api + script + Constants.queryString;
     return this.apiService.get(api);
   }
