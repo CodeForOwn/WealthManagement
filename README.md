@@ -7,12 +7,12 @@ Application to manage portfolio and wish-lists and track recommendations
     - US2 : User shall be able to view the CMP of the suggestion and Target achived.
     - US3 : User shall be able to check out the code and run the application in local system and launch the application.
     - US4 : User should be able to see this investment along with suggestion and returns. @bsmaheshkumar
-        
+    - US9 : Support for BSE stocks
+
 ### Bugs
     - Tooltip is not working
 
 ## Feature under implementation
-    - US9 : Support for BSE stocks
     - US5 : User should be able to see the name on Company as a tooltip onhover the script
     - US6 : User should be able view multiple buy for the same script
     - US7 : New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification

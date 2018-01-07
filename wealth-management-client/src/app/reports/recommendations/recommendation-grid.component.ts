@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { SelectItem } from 'primeng/primeng';
 import { Stock } from '../../modal/stock';
 import * as recommendedStocks from '../../data/stocks-recommendations.json';
 
@@ -8,12 +9,40 @@ import { MarketPlaceService } from '../../services/marketplace.service';
   selector: 'recommendations-grid',
   templateUrl: './recommendation-grid.component.html',
 })
-export class RecommendationGridComponent {
+
+export class RecommendationGridComponent implements OnInit {
+
+  suggestorsList: SelectItem[];
+  columnOptions: SelectItem[];
+  cols: any[];
+
   stockRecommendationList: Stock[] = new Array<Stock>();
   scripts: string[] = new Array<string>();
 
   constructor(private mpservice: MarketPlaceService) {
     this.getStockRecomList();
+  }
+
+  ngOnInit() {
+    this.suggestorsList = [];
+    this.suggestorsList.push({ label: 'All Suggestors', value: null });
+    this.suggestorsList.push({ label: 'Hemanth', value: 'Hemanth' });
+    this.suggestorsList.push({ label: 'StockAxis', value: 'StockAxis' });
+    this.suggestorsList.push({ label: 'Wealth', value: 'Wealth' });
+
+
+    this.cols = [
+      { field: 'script', header: 'Script' },
+      { field: 'name', header: 'Name' },
+      { field: 'marketPrice', header: 'CMP' },
+      { field: 'rcomPrice', header: 'Suggested Price' },
+      { field: 'targetPrice', header: 'Target Price' }
+    ];
+
+    this.columnOptions = [];
+    for (let i = 0; i < this.cols.length; i++) {
+      this.columnOptions.push({ label: this.cols[i].header, value: this.cols[i] });
+    }
   }
 
   getStockRecomList() {
