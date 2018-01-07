@@ -1,4 +1,5 @@
 [{
+    "ex": "NSE",
     "targetPrice": 100.0,
     "rcomPrice": 52.9,
     "rcomDate": "12-Dec-2017",
@@ -7,6 +8,7 @@
     "script": "ALANKIT"
   },
   {
+    "ex": "NSE",
     "targetPrice": 95.0,
     "rcomPrice": 48.5,
     "rcomDate": "20-Jul-2017",
@@ -15,6 +17,7 @@
     "script": "EKC"
   },
   {
+    "ex": "NSE",
     "targetPrice": 140.0,
     "rcomPrice": 81.5,
     "rcomDate": "24-Oct-2017",
@@ -23,6 +26,7 @@
     "script": "JSWENERGY"
   },
   {
+    "ex": "NSE",
     "targetPrice": 350,
     "rcomPrice": 176.65,
     "rcomDate": "1-Jan-2018",
@@ -31,6 +35,7 @@
     "script": "WELENT"
   },
   {
+    "ex": "NSE",
     "targetPrice": 250.0,
     "rcomPrice": 120.0,
     "rcomDate": "17-Nov-2017",
@@ -40,6 +45,7 @@
     "script": "SANGHIIND"
   },
   {
+    "ex": "NSE",
     "targetPrice": 280.0,
     "rcomPrice": 138.0,
     "rcomDate": "27-Sep-2017",
@@ -49,6 +55,7 @@
     "script": "KABRAEXTRU"
   },
   {
+    "ex": "NSE",
     "targetPrice": 3435.0,
     "rcomPrice": 2642.0,
     "rcomDate": "21-Nov-2017",
@@ -57,6 +64,7 @@
     "script": "AVANTIFEED"
   },
   {
+    "ex": "NSE",
     "targetPrice": 310.0,
     "rcomPrice": 208.0,
     "rcomDate": "18-Oct-2017",
@@ -65,6 +73,7 @@
     "script": "MOIL"
   },
   {
+    "ex": "NSE",
     "targetPrice": 717.0,
     "rcomPrice": 478.0,
     "rcomDate": "28-Oct-2016",
@@ -74,6 +83,7 @@
     "script": "PLASTIBLEN"
   },
   {
+    "ex": "NSE",
     "targetPrice": 3465.0,
     "rcomPrice": 2473.8,
     "rcomDate": "28-Oct-2016",
@@ -83,6 +93,7 @@
     "script": "SHRIRAMCIT"
   },
   {
+    "ex": "NSE",
     "targetPrice": 875.0,
     "rcomPrice": 701.0,
     "rcomDate": "02-Nov-2017",
@@ -91,6 +102,7 @@
     "script": "TATASTEEL"
   },
   {
+    "ex": "NSE",
     "targetPrice": 500.0,
     "rcomPrice": 330.0,
     "rcomDate": "01-Nov-2017",
@@ -99,6 +111,7 @@
     "script": "TEJASNET"
   },
   {
+    "ex": "NSE",
     "targetPrice": 1668.0,
     "rcomPrice": 1113.5,
     "rcomDate": "28-Oct-2016",
@@ -108,6 +121,7 @@
     "script": "VTL"
   },
   {
+    "ex": "NSE",
     "targetPrice": 982.0,
     "rcomPrice": 785.0,
     "rcomDate": "17-Jul-2017",
@@ -117,6 +131,7 @@
     "script": "APARINDS"
   },
   {
+    "ex": "NSE",
     "targetPrice": 2185.0,
     "rcomPrice": 1749.0,
     "rcomDate": "03-Aug-2017",
@@ -126,6 +141,7 @@
     "script": "AVANTIFEED"
   },
   {
+    "ex": "NSE",
     "targetPrice": 515.0,
     "rcomPrice": 412.0,
     "rcomDate": "04-Dec-2017",
@@ -135,6 +151,7 @@
     "script": "CAPACITE"
   },
   {
+    "ex": "NSE",
     "targetPrice": 1300.0,
     "rcomPrice": 1042.0,
     "rcomDate": "27-Dec-2017",
@@ -144,6 +161,7 @@
     "script": "RAYMOND"
   },
   {
+    "ex": "NSE",
     "targetPrice": 585.0,
     "rcomPrice": 468.0,
     "rcomDate": "23-Nov-2017",
@@ -153,6 +171,7 @@
     "script": "SARDAEN"
   },
   {
+    "ex": "NSE",
     "targetPrice": 250.0,
     "rcomPrice": 164.75,
     "rcomDate": "10-Oct-2017",
@@ -162,6 +181,7 @@
     "script": "JMFINANCIL"
   },
   {
+    "ex": "NSE",
     "targetPrice": 134.0,
     "rcomPrice": 89.65,
     "rcomDate": "26-Dec-2017",
@@ -171,6 +191,7 @@
     "script": "DAAWAT"
   },
   {
+    "ex": "NSE",
     "targetPrice": 771.0,
     "rcomPrice": 514.0,
     "rcomDate": "08-Nov-2017",
@@ -180,6 +201,7 @@
     "script": "NESCO"
   },
   {
+    "ex": "NSE",
     "targetPrice": 386.0,
     "rcomPrice": 249.5,
     "rcomDate": "18-Sep-2017",
@@ -189,6 +211,7 @@
     "script": "PARAGMILK"
   },
   {
+    "ex": "NSE",
     "targetPrice": 219.0,
     "rcomPrice": 145.0,
     "rcomDate": "21-Nov-2017",
@@ -198,6 +221,7 @@
     "script": "PRAKASH"
   },
   {
+    "ex": "NSE",
     "targetPrice": 712.0,
     "rcomPrice": 480.0,
     "rcomDate": "04-Dec-2017",
@@ -207,6 +231,7 @@
     "script": "PSPPROJECT"
   },
   {
+    "ex": "NSE",
     "targetPrice": 1620.0,
     "rcomPrice": 1080.0,
     "rcomDate": "26-Dec-2017",
@@ -216,6 +241,7 @@
     "script": "RATNAMANI"
   },
   {
+    "ex": "NSE",
     "targetPrice": 4125.0,
     "rcomPrice": 2727.0,
     "rcomDate": "21-Sep-2017",
@@ -225,6 +251,7 @@
     "script": "SHARDAMOTR"
   },
   {
+    "ex": "NSE",
     "targetPrice": 482.0,
     "rcomPrice": 321.0,
     "rcomDate": "19-Sep-2017",
@@ -234,6 +261,7 @@
     "script": "SURYAROSNI"
   },
   {
+    "ex": "NSE",
     "targetPrice": 200.0,
     "rcomPrice": 171.95,
     "rcomDate": "10-Jul-2017",
@@ -242,6 +270,7 @@
     "script": "BEL"
   },
   {
+    "ex": "NSE",
     "targetPrice": 650.0,
     "rcomPrice": 503.9,
     "rcomDate": "13-Nov-2017",
@@ -250,6 +279,7 @@
     "script": "BHARTIARTL"
   },
   {
+    "ex": "NSE",
     "targetPrice": 3500.0,
     "rcomPrice": 2405.6,
     "rcomDate": "06-Nov-2017",
@@ -258,6 +288,7 @@
     "script": "DRREDDY"
   },
   {
+    "ex": "NSE",
     "targetPrice": 1123.0,
     "rcomPrice": 829.55,
     "rcomDate": "18-Dec-2017",
@@ -266,6 +297,7 @@
     "script": "GUJGASLTD"
   },
   {
+    "ex": "NSE",
     "targetPrice": 520.0,
     "rcomPrice": 410.0,
     "rcomDate": "14-Aug-2017",
@@ -274,6 +306,7 @@
     "script": "IOC"
   },
   {
+    "ex": "NSE",
     "targetPrice": 915.0,
     "rcomPrice": 768.0,
     "rcomDate": "17-Jul-2017",
@@ -282,6 +315,7 @@
     "script": "LTTS"
   },
   {
+    "ex": "NSE",
     "targetPrice": 330.0,
     "rcomPrice": 248.9,
     "rcomDate": "31-Jul-2017",
@@ -290,6 +324,7 @@
     "script": "MAHINDCIE"
   },
   {
+    "ex": "NSE",
     "targetPrice": 100.0,
     "rcomPrice": 82.5,
     "rcomDate": "25-Dec-2017",
@@ -298,6 +333,7 @@
     "script": "NATIONALUM"
   },
   {
+    "ex": "NSE",
     "targetPrice": 1750.0,
     "rcomPrice": 1420.95,
     "rcomDate": "30-Oct-2017",
@@ -306,6 +342,7 @@
     "script": "PNBHOUSING"
   },
   {
+    "ex": "NSE",
     "targetPrice": 220,
     "rcomPrice": 157,
     "rcomDate": "1-Jan-2018",
@@ -314,6 +351,7 @@
     "script": "RECLTD"
   },
   {
+    "ex": "NSE",
     "targetPrice": 60.0,
     "rcomPrice": 46.7,
     "rcomDate": "04-May-2017",
@@ -322,6 +360,7 @@
     "script": "ZEELEARN"
   },
   {
+    "ex": "NSE",
     "targetPrice": 56,
     "rcomPrice": 32.40,
     "rcomDate": "22-Nov-2017",
@@ -330,11 +369,21 @@
     "script": "TANLA"
   },
   {
+    "ex": "NSE",
     "targetPrice": 31,
     "rcomPrice": 19.20,
     "rcomDate": "10-Apr-2017",
     "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "SUZLON"
+  }, {
+    "ex": "BSE",
+    "targetPrice": 1060.0,
+    "rcomPrice": 660.0,
+    "rcomDate": "10-Nov-2015",
+    "rcomTimeScale": "6 to 12 months",
+    "stoploss": 600.0,
+    "rcomBy": "StockAxis",
+    "script": "PREMCO"
   }
 ]

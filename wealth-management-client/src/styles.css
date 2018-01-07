@@ -7,3 +7,11 @@
 .progress {
     background-color: #C1BEBE !important;
 }
+
+.loss {
+    color: red;
+  }
+
+  .profit {
+    color: gree;
+  }

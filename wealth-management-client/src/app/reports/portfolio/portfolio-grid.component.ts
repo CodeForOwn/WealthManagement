@@ -23,7 +23,7 @@ export class PortfolioGridComponent {
       const stocksData = JSON.parse(JSON.stringify(recommendedStocks));
       stocksData.map(data => {
         if (data.script === mydata.script) {
-          this.mpservice.getCMPForScripts(data.script).subscribe(value => {
+          this.mpservice.getCMPForScripts(data.script, data.ex).subscribe(value => {
             let stock: Stock = new Stock();
             stock.setMarketPrice(value.quoteSummary.result[0].price.regularMarketPrice.raw);
             stock.setName(value.quoteSummary.result[0].price.longName);

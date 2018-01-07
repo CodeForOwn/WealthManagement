@@ -1,6 +1,7 @@
 export class Stock {
 
   /* From Recommendations */
+  exchange: string;
   script: string;
   targetPrice: number;
   rcomPrice: number;
@@ -34,7 +35,8 @@ export class Stock {
   investPrice: number;
 
   constructor() {
-
+    this.myProfit = 0;
+    this.myPercentage = 0;
   }
 
   setMarketPrice(marketPrice: number): void {
@@ -48,6 +50,8 @@ export class Stock {
   setRecomendationData(data: any): void {
     const firstDate = new Date(data.rcomDate);
     const secondDate = new Date();
+
+    this.exchange = data.ex;
     this.script = data.script;
     this.investPrice = data.buyPrice;
 
