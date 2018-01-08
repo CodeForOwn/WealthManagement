@@ -1,10 +1,10 @@
-import { CoreUIPage } from './app.po';
+import { AppPage } from './app.po';
 
-describe('core-ui App', function() {
-  let page: CoreUIPage;
+describe('open-wealth-manager App', function() {
+  let page: AppPage;
 
   beforeEach(() => {
-    page = new CoreUIPage();
+    page = new AppPage();
   });
 
   it('should display message saying app works', () => {
