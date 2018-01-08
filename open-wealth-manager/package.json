@@ -1,6 +1,6 @@
 {
   "name": "OpenWealthManager",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Web application to manage investments",
   "license": "MIT",
   "scripts": {
