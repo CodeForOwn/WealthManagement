@@ -376,7 +376,8 @@
     "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "SUZLON"
-  }, {
+  },
+  {
     "ex": "BSE",
     "targetPrice": 1060.0,
     "rcomPrice": 660.0,
@@ -385,5 +386,15 @@
     "stoploss": 600.0,
     "rcomBy": "StockAxis",
     "script": "PREMCO"
+  }, 
+  {
+    "ex": "BSE",
+    "targetPrice": 2510,
+    "rcomPrice": 2139.25,
+    "rcomDate": "8-Jan-2018",
+    "rcomTimeScale": "6 to 12 months",
+    "stoploss": 600.0,
+    "rcomBy": "Wealth",
+    "script": "SHRIRAMCIT"
   }
 ]

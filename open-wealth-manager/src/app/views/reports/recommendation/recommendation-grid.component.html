@@ -2,10 +2,10 @@
   resizableColumns="true" reorderableColumns="true" columnResizeMode="fit" selectionMode="single">
   <p-column field="script" header="Script" [sortable]="true" filter="true" [style]="{'width':'10%'}"></p-column>
   <p-column field="name" header="Name" [sortable]="true" filter="true" [hidden]="true"></p-column>
-  <p-column field="marketPrice" header="CMP (&#8377;)" [sortable]="true" [style]="{'width':'5%'}"></p-column>
-  <p-column field="rcomPrice" header="SP (&#8377;)" sortable="true" [style]="{'width':'5%'}" pTooltip="Suggested Price"></p-column>
-  <p-column field="targetPrice" header="TP (&#8377;)" sortable="true" [style]="{'width':'5%'}" pTooltip="Target Price"></p-column>
-  <p-column field="targetPercentage" header="Target %" sortable="true">
+  <p-column field="rcomPrice" header="SP (&#8377;)" sortable="true" [style]="{'width':'7%'}" pTooltip="Suggested Price"></p-column>
+  <p-column field="marketPrice" header="CMP (&#8377;)" [sortable]="true" [style]="{'width':'7%'}"></p-column>
+  <p-column field="targetPrice" header="TP (&#8377;)" sortable="true" [style]="{'width':'7%'}" pTooltip="Target Price"></p-column>
+  <p-column field="targetPercentage" header="Target %" sortable="true" [style]="{'width':'10%'}">
     <ng-template let-col let-target="rowData" let-ri="rowIndex" pTemplate="body">
       <div class="clearfix">
         <div class="float-left">
@@ -20,7 +20,7 @@
     </ng-template>
   </p-column>
 
-  <p-column field="achivedPercentage" header="Target Achieved %" sortable="true">
+  <p-column field="achivedPercentage" header="Achieved %" sortable="true" [style]="{'width':'10%'}">
     <ng-template let-col let-target="rowData" let-ri="rowIndex" pTemplate="body">
       <div class="clearfix">
         <div class="float-left">
