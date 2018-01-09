@@ -60,7 +60,7 @@
     "rcomPrice": 2642.0,
     "rcomDate": "21-Nov-2017",
     "rcomTimeScale": "6 to 12 months",
-    "rcomBy": "StockAxis",
+    "rcomBy": "MP-SA",
     "script": "AVANTIFEED"
   },
   {
@@ -69,17 +69,17 @@
     "rcomPrice": 208.0,
     "rcomDate": "18-Oct-2017",
     "rcomTimeScale": "6 to 12 months",
-    "rcomBy": "StockAxis",
+    "rcomBy": "MP-SA",
     "script": "MOIL"
   },
   {
     "ex": "NSE",
-    "targetPrice": 717.0,
-    "rcomPrice": 478.0,
+    "targetPrice": 358.5,
+    "rcomPrice": 239,
     "rcomDate": "28-Oct-2016",
     "rcomTimeScale": "6 to 12 months",
-    "stoploss": 450.0,
-    "rcomBy": "StockAxis",
+    "stoploss": 225,
+    "rcomBy": "MP-SA",
     "script": "PLASTIBLEN"
   },
   {
@@ -89,7 +89,7 @@
     "rcomDate": "28-Oct-2016",
     "rcomTimeScale": "6 to 12 months",
     "stoploss": 2350.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "MP-SA",
     "script": "SHRIRAMCIT"
   },
   {
@@ -98,7 +98,7 @@
     "rcomPrice": 701.0,
     "rcomDate": "02-Nov-2017",
     "rcomTimeScale": "6 to 12 months",
-    "rcomBy": "StockAxis",
+    "rcomBy": "MP-SA",
     "script": "TATASTEEL"
   },
   {
@@ -107,7 +107,7 @@
     "rcomPrice": 330.0,
     "rcomDate": "01-Nov-2017",
     "rcomTimeScale": "6 to 12 months",
-    "rcomBy": "StockAxis",
+    "rcomBy": "MP-SA",
     "script": "TEJASNET"
   },
   {
@@ -117,7 +117,7 @@
     "rcomDate": "28-Oct-2016",
     "rcomTimeScale": "6 to 12 months",
     "stoploss": 1000.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "MP-SA",
     "script": "VTL"
   },
   {
@@ -127,7 +127,7 @@
     "rcomDate": "17-Jul-2017",
     "rcomTimeScale": "2 to 3 months",
     "stoploss": 667.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "PP-SA",
     "script": "APARINDS"
   },
   {
@@ -137,7 +137,7 @@
     "rcomDate": "03-Aug-2017",
     "rcomTimeScale": "2 to 3 months",
     "stoploss": 1485.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "PP-SA",
     "script": "AVANTIFEED"
   },
   {
@@ -147,7 +147,7 @@
     "rcomDate": "04-Dec-2017",
     "rcomTimeScale": "2 to 3 months",
     "stoploss": 350.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "PP-SA",
     "script": "CAPACITE"
   },
   {
@@ -157,7 +157,7 @@
     "rcomDate": "27-Dec-2017",
     "rcomTimeScale": "2 to 3 months",
     "stoploss": 885.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "PP-SA",
     "script": "RAYMOND"
   },
   {
@@ -167,7 +167,7 @@
     "rcomDate": "23-Nov-2017",
     "rcomTimeScale": "2 to 3 months",
     "stoploss": 396.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "PP-SA",
     "script": "SARDAEN"
   },
   {
@@ -177,7 +177,7 @@
     "rcomDate": "10-Oct-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 132.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "JMFINANCIL"
   },
   {
@@ -187,7 +187,7 @@
     "rcomDate": "26-Dec-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 71.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "DAAWAT"
   },
   {
@@ -197,7 +197,7 @@
     "rcomDate": "08-Nov-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 411.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "NESCO"
   },
   {
@@ -207,7 +207,7 @@
     "rcomDate": "18-Sep-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 200.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "PARAGMILK"
   },
   {
@@ -217,7 +217,7 @@
     "rcomDate": "21-Nov-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 116.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "PRAKASH"
   },
   {
@@ -227,7 +227,7 @@
     "rcomDate": "04-Dec-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 380.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "PSPPROJECT"
   },
   {
@@ -237,7 +237,7 @@
     "rcomDate": "26-Dec-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 865.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "RATNAMANI"
   },
   {
@@ -247,7 +247,7 @@
     "rcomDate": "21-Sep-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 2200.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "SHARDAMOTR"
   },
   {
@@ -257,7 +257,7 @@
     "rcomDate": "19-Sep-2017",
     "rcomTimeScale": "3 to 6 months",
     "stoploss": 255.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "WB-SA",
     "script": "SURYAROSNI"
   },
   {
@@ -384,7 +384,7 @@
     "rcomDate": "10-Nov-2015",
     "rcomTimeScale": "6 to 12 months",
     "stoploss": 600.0,
-    "rcomBy": "StockAxis",
+    "rcomBy": "MP-SA",
     "script": "PREMCO"
   }, 
   {
