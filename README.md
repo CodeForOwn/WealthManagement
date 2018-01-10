@@ -13,8 +13,13 @@ Application to manage portfolio and wish-lists and track recommendations
     - Tooltip is not working
 
 ## Feature under implementation
+    - US6 : User should be able view multiple buy\sell for the same script @coderhindu
+        Should include common 3 common fields (script, exchange & suggested by)
+        Should include array for buy and sell items.
+        Should support imgration scripts for my-investment.json. Or should be backward compatible.
+    - US11 : User should be able to view graph with 3 below bars based on suggestions
+        Target, Acived, My Income.
     - US5 : User should be able to see the name on Company as a tooltip onhover the script
-    - US6 : User should be able view multiple buy for the same script
     - US7 : New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification
     - US8 : If do dont get the CMP for a give script, we should still be able to display availabled statis data.
 
