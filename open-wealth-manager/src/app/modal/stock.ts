@@ -17,6 +17,7 @@ export class Stock {
   /* from Yahoo */
   name: string;
   marketPrice: number;
+  todayagain: number;
 
   /* calculated values */
   days: number;
@@ -45,6 +46,10 @@ export class Stock {
 
   setName(name: string): void {
     this.name = name;
+  }
+
+  setTodayGain(gain: number): void {
+    this.todayagain = (gain * 100).toPrecision(2);
   }
 
   setRecomendationData(data: any): void {

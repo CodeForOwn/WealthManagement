@@ -27,6 +27,7 @@ export class PortfolioGridComponent {
             let stock: Stock = new Stock();
             stock.setMarketPrice(value.quoteSummary.result[0].price.regularMarketPrice.raw);
             stock.setName(value.quoteSummary.result[0].price.longName);
+            stock.setTodayGain(value.quoteSummary.result[0].price.regularMarketChangePercent.raw);
             stock.setRecomendationData(data);
             stock.setProfolioData(mydata);
             this.userInvestmentList.push(stock);
