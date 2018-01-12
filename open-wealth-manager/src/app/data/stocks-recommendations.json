@@ -396,5 +396,28 @@
     "stoploss": 600.0,
     "rcomBy": "Wealth",
     "script": "SHRIRAMCIT"
+  }, 
+  {
+    "ex": "NSE",
+    "targetPrice": 341,
+    "rcomPrice": 295,
+    "rcomDate": "11-Jan-2018",
+    "rcomTimeScale": "6 to 12 months",
+    "stoploss": 600.0,
+    "rcomBy": "Geo",
+    "script": "ESSELPACK"
   }
+  , 
+  {
+    "ex": "NSE",
+    "targetPrice": 126,
+    "rcomPrice": 94,
+    "rcomDate": "12-Jan-2018",
+    "rcomTimeScale": "6 to 12 months",
+    "stoploss": 80,
+    "rcomBy": "Hemanth",
+    "script": "VIPCLOTHNG"
+  }
+
+  
 ]

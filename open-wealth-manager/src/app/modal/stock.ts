@@ -49,7 +49,7 @@ export class Stock {
   }
 
   setTodayGain(gain: number): void {
-    this.todayagain = (gain * 100).toPrecision(2);
+    this.todayagain = (gain * 100);
   }
 
   setRecomendationData(data: any): void {
