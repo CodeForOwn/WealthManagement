@@ -386,7 +386,7 @@
     "stoploss": 600.0,
     "rcomBy": "MP-SA",
     "script": "PREMCO"
-  }, 
+  },
   {
     "ex": "BSE",
     "targetPrice": 2510,
@@ -396,7 +396,7 @@
     "stoploss": 600.0,
     "rcomBy": "Wealth",
     "script": "SHRIRAMCIT"
-  }, 
+  },
   {
     "ex": "NSE",
     "targetPrice": 341,
@@ -406,18 +406,17 @@
     "stoploss": 600.0,
     "rcomBy": "Geo",
     "script": "ESSELPACK"
-  }
-  , 
+  },
   {
     "ex": "NSE",
     "targetPrice": 126,
     "rcomPrice": 94,
     "rcomDate": "12-Jan-2018",
-    "rcomTimeScale": "6 to 12 months",
+    "rcomTimeScale": "2 to 3 months",
     "stoploss": 80,
     "rcomBy": "Hemanth",
     "script": "VIPCLOTHNG"
   }
 
-  
+
 ]
