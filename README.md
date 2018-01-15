@@ -1,6 +1,7 @@
 # Wealth Management
 Application to manage portfolio and wish-lists and track recommendations
 
+[![travis](https://img.shields.io/travis/chartjs/Chart.js.svg?style=flat-square&maxAge=60)](https://travis-ci.org/chartjs/Chart.js) [![coveralls](https://img.shields.io/coveralls/chartjs/Chart.js.svg?style=flat-square&maxAge=600)](https://coveralls.io/github/chartjs/Chart.js?branch=master)
 ## Feature completed
 ####    Version 1
     - US1 : User shall be able to view the suggestion

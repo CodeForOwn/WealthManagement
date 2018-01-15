@@ -13,7 +13,7 @@ export class Stock {
   buyPrice: number;
   buyOuality: number;
   buyDate: number;
-  
+
   /* from Yahoo */
   name: string;
   marketPrice: number;
@@ -49,7 +49,7 @@ export class Stock {
   }
 
   setTodayGain(gain: number): void {
-    this.todayagain = (gain * 100);
+    this.todayagain = Math.ceil(gain * 100 * 100) / 100;
   }
 
   setRecomendationData(data: any): void {

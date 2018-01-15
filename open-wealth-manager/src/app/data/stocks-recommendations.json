@@ -1,14 +1,5 @@
 [{
     "ex": "NSE",
-    "targetPrice": 100.0,
-    "rcomPrice": 52.9,
-    "rcomDate": "12-Dec-2017",
-    "rcomTimeScale": "6 to 9 months",
-    "rcomBy": "Hemanth",
-    "script": "ALANKIT"
-  },
-  {
-    "ex": "NSE",
     "targetPrice": 95.0,
     "rcomPrice": 48.5,
     "rcomDate": "20-Jul-2017",
@@ -43,16 +34,6 @@
     "stoploss": 90.0,
     "rcomBy": "Hemanth",
     "script": "SANGHIIND"
-  },
-  {
-    "ex": "NSE",
-    "targetPrice": 280.0,
-    "rcomPrice": 138.0,
-    "rcomDate": "27-Sep-2017",
-    "rcomTimeScale": "6 to 12 months",
-    "stoploss": 95.0,
-    "rcomBy": "Arvind Bajaj",
-    "script": "KABRAEXTRU"
   },
   {
     "ex": "NSE",
@@ -386,7 +367,7 @@
     "stoploss": 600.0,
     "rcomBy": "MP-SA",
     "script": "PREMCO"
-  }, 
+  },
   {
     "ex": "BSE",
     "targetPrice": 2510,
@@ -396,7 +377,7 @@
     "stoploss": 600.0,
     "rcomBy": "Wealth",
     "script": "SHRIRAMCIT"
-  }, 
+  },
   {
     "ex": "NSE",
     "targetPrice": 341,
@@ -406,18 +387,17 @@
     "stoploss": 600.0,
     "rcomBy": "Geo",
     "script": "ESSELPACK"
-  }
-  , 
+  },
   {
     "ex": "NSE",
     "targetPrice": 126,
     "rcomPrice": 94,
     "rcomDate": "12-Jan-2018",
-    "rcomTimeScale": "6 to 12 months",
+    "rcomTimeScale": "2 to 3 months",
     "stoploss": 80,
     "rcomBy": "Hemanth",
     "script": "VIPCLOTHNG"
   }
 
-  
+
 ]
