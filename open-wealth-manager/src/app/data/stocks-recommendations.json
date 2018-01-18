@@ -1,12 +1,4 @@
-[{
-    "ex": "NSE",
-    "targetPrice": 95.0,
-    "rcomPrice": 48.5,
-    "rcomDate": "20-Jul-2017",
-    "rcomTimeScale": "6 to 12 months",
-    "rcomBy": "Hemanth",
-    "script": "EKC"
-  },
+[
   {
     "ex": "NSE",
     "targetPrice": 140.0,
@@ -397,6 +389,26 @@
     "stoploss": 80,
     "rcomBy": "Hemanth",
     "script": "VIPCLOTHNG"
+  },
+  {
+    "ex": "NSE",
+    "targetPrice": 490,
+    "rcomPrice": 393,
+    "rcomDate": "17-Jan-2018",
+    "rcomTimeScale": "2 to 3 months",
+    "stoploss": 332,
+    "rcomBy": "PP-SA",
+    "script": "STERTOOLS"
+  },
+  {
+    "ex": "NSE",
+    "targetPrice": 138,
+    "rcomPrice": 93,
+    "rcomDate": "18-Jan-2018",
+    "rcomTimeScale": "6 to 12 months",
+    "stoploss": 66,
+    "rcomBy": "Hemanth",
+    "script": "BRFL"
   }
 
 
