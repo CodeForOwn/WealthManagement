@@ -235,15 +235,6 @@
   },
   {
     "ex": "NSE",
-    "targetPrice": 200.0,
-    "rcomPrice": 171.95,
-    "rcomDate": "10-Jul-2017",
-    "rcomTimeScale": "2 to 3 months",
-    "rcomBy": "Wealth",
-    "script": "BEL"
-  },
-  {
-    "ex": "NSE",
     "targetPrice": 650.0,
     "rcomPrice": 503.9,
     "rcomDate": "13-Nov-2017",
@@ -259,15 +250,6 @@
     "rcomTimeScale": "2 to 3 months",
     "rcomBy": "Wealth",
     "script": "DRREDDY"
-  },
-  {
-    "ex": "NSE",
-    "targetPrice": 1123.0,
-    "rcomPrice": 829.55,
-    "rcomDate": "18-Dec-2017",
-    "rcomTimeScale": "2 to 3 months",
-    "rcomBy": "Wealth",
-    "script": "GUJGASLTD"
   },
   {
     "ex": "NSE",
@@ -409,7 +391,15 @@
     "stoploss": 66,
     "rcomBy": "Hemanth",
     "script": "BRFL"
+  },
+  {
+    "ex": "NSE",
+    "targetPrice": 350,
+    "rcomPrice": 283.10,
+    "rcomDate": "22-Jan-2018",
+    "rcomTimeScale": "6 to 12 months",
+    "stoploss": 240,
+    "rcomBy": "Wealth",
+    "script": "COALINDIA"
   }
-
-
 ]
