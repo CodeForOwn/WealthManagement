@@ -1,5 +1,4 @@
-[
-  {
+[{
     "ex": "NSE",
     "targetPrice": 140.0,
     "rcomPrice": 81.5,
@@ -95,16 +94,6 @@
   },
   {
     "ex": "NSE",
-    "targetPrice": 982.0,
-    "rcomPrice": 785.0,
-    "rcomDate": "17-Jul-2017",
-    "rcomTimeScale": "2 to 3 months",
-    "stoploss": 667.0,
-    "rcomBy": "PP-SA",
-    "script": "APARINDS"
-  },
-  {
-    "ex": "NSE",
     "targetPrice": 2185.0,
     "rcomPrice": 1749.0,
     "rcomDate": "03-Aug-2017",
@@ -182,16 +171,6 @@
     "stoploss": 200.0,
     "rcomBy": "WB-SA",
     "script": "PARAGMILK"
-  },
-  {
-    "ex": "NSE",
-    "targetPrice": 219.0,
-    "rcomPrice": 145.0,
-    "rcomDate": "21-Nov-2017",
-    "rcomTimeScale": "3 to 6 months",
-    "stoploss": 116.0,
-    "rcomBy": "WB-SA",
-    "script": "PRAKASH"
   },
   {
     "ex": "NSE",
@@ -401,5 +380,36 @@
     "stoploss": 240,
     "rcomBy": "Wealth",
     "script": "COALINDIA"
+  },
+  {
+    "ex": "NSE",
+    "targetPrice": 780,
+    "rcomPrice": 624,
+    "rcomDate": "31-Jan-2018",
+    "rcomTimeScale": "2 to 3 months",
+    "stoploss": 555,
+    "rcomBy": "PP-SA",
+    "script": "APEX"
+  },
+  {
+    "ex": "NSE",
+    "targetPrice": 262,
+    "rcomPrice": 210.25,
+    "rcomDate": "30-Jan-2018",
+    "rcomTimeScale": "2 to 3 months",
+    "stoploss": 178,
+    "rcomBy": "PP-SA",
+    "script": "BLISSGVS"
+  }, 
+  {
+    "ex": "NSE",
+    "targetPrice": 68,
+    "rcomPrice": 59,
+    "rcomDate": "29-Jan-2018",
+    "rcomTimeScale": "2 to 3 months",
+    "stoploss": 50,
+    "rcomBy": "Wealth",
+    "script": "IDFCBANK"
   }
+
 ]
