@@ -410,6 +410,26 @@
     "stoploss": 50,
     "rcomBy": "Wealth",
     "script": "IDFCBANK"
+  }, 
+  {
+    "ex": "NSE",
+    "targetPrice": 520,
+    "rcomPrice": 415,
+    "rcomDate": "5-Feb-2018",
+    "rcomTimeScale": "2 to 3 months",
+    "stoploss": 380,
+    "rcomBy": "Wealth",
+    "script": "ICICIPRULI"
+  }, 
+  {
+    "ex": "NSE",
+    "targetPrice": 790,
+    "rcomPrice": 534,
+    "rcomDate": "6-Feb-2018",
+    "rcomTimeScale": "3 to 6 months",
+    "stoploss": 420,
+    "rcomBy": "WB-SA",
+    "script": "TIIL"
   }
 
 ]
