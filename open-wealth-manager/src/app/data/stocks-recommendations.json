@@ -430,6 +430,27 @@
     "stoploss": 420,
     "rcomBy": "WB-SA",
     "script": "TIIL"
+  }, 
+  {
+    "ex": "NSE",
+    "targetPrice": 585,
+    "rcomPrice": 388,
+    "rcomDate": "7-Feb-2018",
+    "rcomTimeScale": "3 to 6 months",
+    "stoploss": 310,
+    "rcomBy": "WB-SA",
+    "script": "V2RETAIL"
+  }, 
+  {
+    "ex": "NSE",
+    "targetPrice": 4750,
+    "rcomPrice": 3730,
+    "rcomDate": "7-Feb-2018",
+    "rcomTimeScale": "6 to 9 months",
+    "stoploss": 310,
+    "rcomBy": "WB-SA",
+    "script": "DIXON"
   }
+
 
 ]
