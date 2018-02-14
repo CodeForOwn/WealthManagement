@@ -54,6 +54,7 @@ export class RecommendationGridComponent implements OnInit {
         stock.setMarketPrice(value.quoteSummary.result[0].price.regularMarketPrice.raw);
         stock.setName(value.quoteSummary.result[0].price.longName);
         stock.setRecomendationData(data);
+        stock.setTodayGain(value.quoteSummary.result[0].price.regularMarketChangePercent.raw);
         this.stockRecommendationList.push(stock);
       });
     });
