@@ -1,0 +1,3 @@
+<p-dropdown [options]="stockSuggestorsList" [(ngModel)]="selectedSuggestion" [ngModelOptions]="{standalone: true}" optionLabel="name" (onChange)="update(barChart)"></p-dropdown>
+<p-chart #barChart type="bar" [data]="data" ></p-chart>
+

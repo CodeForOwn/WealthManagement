@@ -11,7 +11,6 @@ import { MarketPlaceService } from '../../../services/marketplace.service';
 })
 export class PortfolioGridComponent {
   userInvestmentList: Stock[] = new Array<Stock>();
-  scripts: string[] = new Array<string>();
 
   constructor(private mpservice: MarketPlaceService) {
     this.getMyInvestmentList();

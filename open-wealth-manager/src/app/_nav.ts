@@ -39,6 +39,11 @@ export const navigation = [
         name: 'Mutual Funds',
         url: '/reports/portfolio/mutualfunds',
         icon: 'icon-wallet'
+      },
+      {
+        name: 'Charts',
+        url: '/reports/portfolio/charts',
+        icon: 'fa-bar-chart'
       }
     ]
   },
