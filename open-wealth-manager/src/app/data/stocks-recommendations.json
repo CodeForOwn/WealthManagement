@@ -422,7 +422,7 @@
     "script": "ICICIPRULI"
   }, 
   {
-    "ex": "NSE",
+    "ex": "BSE",
     "targetPrice": 790,
     "rcomPrice": 534,
     "rcomDate": "6-Feb-2018",
@@ -432,7 +432,7 @@
     "script": "TIIL"
   }, 
   {
-    "ex": "NSE",
+    "ex": "BSE",
     "targetPrice": 585,
     "rcomPrice": 388,
     "rcomDate": "7-Feb-2018",
@@ -450,6 +450,16 @@
     "stoploss": 310,
     "rcomBy": "WB-SA",
     "script": "DIXON"
+  }, 
+  {
+    "ex": "NSE",
+    "targetPrice": 1475,
+    "rcomPrice": 1177,
+    "rcomDate": "15-Feb-2018",
+    "rcomTimeScale": "2 to 3 months",
+    "stoploss": 1000,
+    "rcomBy": "PP-SA",
+    "script": "AARTIIND"
   }
 
 
