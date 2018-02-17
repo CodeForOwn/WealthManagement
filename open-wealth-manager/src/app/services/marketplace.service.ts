@@ -17,7 +17,7 @@ export class MarketPlaceService {
     if (exchange === 'BSE') {
       script = script + '.BO';
     }
-    let api = Constants.api + script + Constants.queryString;
+    const api = Constants.api + script + Constants.queryString;
     return this.apiService.get(api);
   }
 }

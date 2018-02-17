@@ -1,4 +1,0 @@
-- Install Python (version > 2.7)
-- Install web.py (command pip install web.py)
-- Install nsetools (command pip install nsetools)
-- Run the server locally (command python curprice.py)
