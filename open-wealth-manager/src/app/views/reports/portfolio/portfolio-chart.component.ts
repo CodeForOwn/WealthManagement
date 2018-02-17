@@ -15,7 +15,7 @@ interface SuggestionList {
 }
 
 @Component({
-  selector: 'portfolio-chart',
+  selector: 'app-portfolio-chart',
   templateUrl: './portfolio-chart.component.html',
 })
 export class PortfolioChartComponent implements OnInit {
