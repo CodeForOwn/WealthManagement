@@ -1,0 +1,21 @@
+[{
+    "script": "PRAKASH",
+    "buy": [{
+        "price": 145,
+        "quantity": 70,
+        "date": "12-Dec-2017"
+    }],
+    "sell": [{
+        "price": 200,
+        "quantity": 35,
+        "date": "12-Dec-2017"
+    }],
+    "divident": [{
+        "amount": 10,
+        "date": "12-Dec-2017"
+    }],
+    "bounus": [{
+        "quantity": 35,
+        "date": "12-Dec-2017"
+    }]
+}]
