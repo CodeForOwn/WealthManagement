@@ -152,3 +152,7 @@ src/webpy-master/
 wealth-management-client/src/app/data/my-investment.json
 
 open-wealth-manager/src/app/data/my-investment.json
+
+data-server/node_modules/*
+
+nohup.out
