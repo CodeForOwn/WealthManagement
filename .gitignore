@@ -156,3 +156,5 @@ open-wealth-manager/src/app/data/my-investment.json
 data-server/node_modules/*
 
 nohup.out
+
+.nohup.out.swp
