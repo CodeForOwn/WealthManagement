@@ -126,11 +126,11 @@ export class PortfolioChartComponent implements OnInit {
     if (stocksData.script === mydata.script) {
       let stock: Stock = DataConveter.createInvestmentStockObject(stocksData, mydata);
       this.userInvestmentList.push(stock);
-      if (stocksData.rcomBy === suggesterCode) {
-        this.labels.push(stocksData.script);
-        this.targetData.push(Math.round(stocksData.targetPercentage));
-        this.achiveData.push(Math.round(stocksData.achivedPercentage));
-        this.myData.push(Math.round(stocksData.myPercentage));
+      if (stock.rcomBy === suggesterCode) {
+        this.labels.push(stock.script);
+        this.targetData.push(Math.round(stock.targetPercentage));
+        this.achiveData.push(Math.round(stock.achivedPercentage));
+        this.myData.push(Math.round(stock.myPercentage));
       }
     } else {
       console.log('Invalid Scripts : ' + stocksData.script + ' != ' + mydata.script);
