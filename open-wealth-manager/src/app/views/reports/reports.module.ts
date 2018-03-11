@@ -18,6 +18,7 @@ import { PortfolioChartComponent } from './portfolio/portfolio-chart.component';
 
 import { MarketPlaceService } from '../../services/marketplace.service';
 import { ApiService } from '../../services/api.service';
+import { StockDataService } from '../../services/stockdata.service';
 
 @NgModule({
   imports: [
@@ -38,6 +39,6 @@ import { ApiService } from '../../services/api.service';
     PortfolioGridComponent,
     PortfolioChartComponent
   ],
-  providers: [ApiService, MarketPlaceService]
+  providers: [ApiService, MarketPlaceService, StockDataService]
 })
 export class ReportsModule { }

@@ -8,7 +8,7 @@ then
     echo "\"recommendations\" : " >> data-server/datasource.json
     cat data-server/recommendations.json >> data-server/datasource.json
     echo ",\"investments\" : " >> data-server/datasource.json
-    cat data-server/investments.json >> data-server/datasource.json
+    cat data-server/oldinvestments.json >> data-server/datasource.json
     echo "}">> data-server/datasource.json
     echo "=========== Data creation complete =========== "
 fi

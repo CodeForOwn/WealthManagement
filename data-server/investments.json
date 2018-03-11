@@ -1,21 +1,36 @@
 [{
-    "script": "PRAKASH",
+    "ex": "NSE",
+    "script": "SHRIRAMCIT",
     "buy": [{
-        "price": 145,
-        "quantity": 70,
-        "date": "12-Dec-2017"
+        "price": 2049.85,
+        "quantity": 12,
+        "date": "17-Nov-2017",
+        "rcomBy": "MP-SA"
+    }, {
+        "price": 2535.35,
+        "quantity": 40,
+        "date": "4-Sep-2017",
+        "rcomBy": "MP-SA"
+    }, {
+        "price": 2168.55,
+        "quantity": 23,
+        "date": "1-Jan-2010",
+        "rcomBy": "Wealth"
     }],
     "sell": [{
         "price": 200,
         "quantity": 35,
-        "date": "12-Dec-2017"
+        "date": "12-Dec-2017",
+        "rcomBy": "MP-SA"
     }],
     "divident": [{
         "amount": 10,
-        "date": "12-Dec-2017"
+        "date": "12-Dec-2017",
+        "rcomBy": "MP-SA"
     }],
     "bounus": [{
         "quantity": 35,
-        "date": "12-Dec-2017"
+        "date": "12-Dec-2017",
+        "rcomBy": "MP-SA"
     }]
 }]

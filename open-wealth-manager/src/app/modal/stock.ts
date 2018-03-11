@@ -62,6 +62,7 @@ export class Stock {
 
     this.rcomPrice = data.rcomPrice;
     this.targetPrice = data.targetPrice;
+    this.todayagain = data.todayagain;
     this.targetPercentage = (((this.targetPrice - this.rcomPrice) / this.rcomPrice) * 100);
     if (this.marketPrice !== undefined && this.marketPrice !== 0) {
       this.achivedPercentage = (((this.marketPrice - this.rcomPrice) / this.rcomPrice) * 100);

@@ -322,7 +322,7 @@
         "script": "PREMCO"
     },
     {
-        "ex": "BSE",
+        "ex": "NSE",
         "targetPrice": 2510,
         "rcomPrice": 2139.25,
         "rcomDate": "8-Jan-2018",

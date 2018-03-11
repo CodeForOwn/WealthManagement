@@ -1,6 +1,7 @@
 export class Constants {
 
   public static datasource = 'http://localhost:3030/';
+  public static script_query = '?script=';
   public static api_recommendations = 'recommendations';
   public static api_investments = 'investments';
   public static api = 'https://query2.finance.yahoo.com/v10/finance/quoteSummary/';

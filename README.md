@@ -1,6 +1,24 @@
 # Wealth Management
 Application to manage portfolio and wish-lists and track recommendations
 
+## Feature under implementation
+    - US12 : Recommendation and MyInvestment data should be moved to data server.
+    - US6 : User should be able view multiple buy\sell for the same script @coderhindu
+        Should include common 3 common fields (script, exchange & suggested by)
+        Should include array for buy and sell items.
+        Should support imgration scripts for my-investment.json. Or should be backward compatible.
+    - US11 : User should be able to view graph with 3 below bars based on suggestions
+        Target, Acived, My Income.
+
+####    TODO
+    * Sort the data in the bar chart based on income.
+####    Planned items
+    - US5 : User should be able to see the name on Company as a tooltip onhover the script
+    - US7 : New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification
+    - US8 : If do dont get the CMP for a give script, we should still be able to display availabled statis data.
+    
+
+
 [![travis](https://img.shields.io/travis/chartjs/Chart.js.svg?style=flat-square&maxAge=60)](https://travis-ci.org/chartjs/Chart.js) [![coveralls](https://img.shields.io/coveralls/chartjs/Chart.js.svg?style=flat-square&maxAge=600)](https://coveralls.io/github/chartjs/Chart.js?branch=master)
 ## Feature completed
 ####    Version 1
@@ -12,17 +30,6 @@ Application to manage portfolio and wish-lists and track recommendations
 
 ### Bugs
     - Tooltip is not working
-
-## Feature under implementation
-    - US6 : User should be able view multiple buy\sell for the same script @coderhindu
-        Should include common 3 common fields (script, exchange & suggested by)
-        Should include array for buy and sell items.
-        Should support imgration scripts for my-investment.json. Or should be backward compatible.
-    - US11 : User should be able to view graph with 3 below bars based on suggestions
-        Target, Acived, My Income.
-    - US5 : User should be able to see the name on Company as a tooltip onhover the script
-    - US7 : New Recomendation added (or less than 2 weeks old) should be show in a different color or some kind of notification
-    - US8 : If do dont get the CMP for a give script, we should still be able to display availabled statis data.
 
 ## WishList
     - User portfolio, should handle multiple suggestion on the same script.
@@ -38,9 +45,12 @@ Application to manage portfolio and wish-lists and track recommendations
 ## Installation and set-up
 ```
 git clone https://github.com/CodeForOwn/WealthManagement
-cd wealth-management-client
+cd cd data-server
 npm install
-npm start
+cd ../open-wealth-manager
+npm install
+cd ..
+sh sh start-application.sh
 ```
 > Install a CORS add on the browser and turn it on. This is required to make queries to yahoo server.
 

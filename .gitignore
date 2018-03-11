@@ -159,3 +159,5 @@ nohup.out
 .nohup.out.swp
 
 data-server/datasource.json
+data-server/investments.json
+
