@@ -45,7 +45,7 @@ Application to manage portfolio and wish-lists and track recommendations
 ## Installation and set-up
 ```
 git clone https://github.com/CodeForOwn/WealthManagement
-cd cd data-server
+cd data-server
 npm install
 cd ../open-wealth-manager
 npm install
@@ -72,7 +72,7 @@ Sample Json format
         }
     ```
 
-> my-investment.json is added to .getignore, so that your data is commited.
+> my-investment.json is added to .gitignore, so that your data is commited.
 
 
 # And Enjoy Creating Wealth for yourself and others.
