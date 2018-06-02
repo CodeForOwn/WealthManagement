@@ -29,8 +29,8 @@
     {
         "ex": "NSE",
         "targetPrice": 3435.0,
-        "rcomPrice": 2642.0,
-        "rcomDate": "21-Nov-2017",
+        "rcomPrice": 1743.0,
+        "rcomDate": "30-May-2018",
         "rcomTimeScale": "6 to 12 months",
         "rcomBy": "MP-SA",
         "script": "AVANTIFEED"
@@ -241,9 +241,9 @@
     },
     {
         "ex": "NSE",
-        "targetPrice": 915.0,
-        "rcomPrice": 768.0,
-        "rcomDate": "17-Jul-2017",
+        "targetPrice": 1750,
+        "rcomPrice": 1230,
+        "rcomDate": "18-May-2018",
         "rcomTimeScale": "3 to 6 months",
         "rcomBy": "Wealth",
         "script": "LTTS"
@@ -490,5 +490,100 @@
         "stoploss": 170,
         "rcomBy": "WB-SA",
         "script": "NOCIL"
+    },
+    {
+        "ex": "NSE",
+        "targetPrice": 1105,
+        "rcomPrice": 894,
+        "rcomDate": "12-Mar-2018",
+        "rcomTimeScale": "3 to 6 months",
+        "stoploss": 750,
+        "rcomBy": "PP-SA",
+        "script": "RML"
+    },
+    {
+        "ex": "NSE",
+        "targetPrice": 275,
+        "rcomPrice": 184.50,
+        "rcomDate": "13-Apr-2018",
+        "rcomTimeScale": "6 to 9 months",
+        "stoploss": 145,
+        "rcomBy": "WB-SA",
+        "script": "GRAVITA"
+    },
+    {
+        "ex": "NSE",
+        "targetPrice": 3480,
+        "rcomPrice": 2330,
+        "rcomDate": "24-Apr-2018",
+        "rcomTimeScale": "6 to 9 months",
+        "stoploss": 145,
+        "rcomBy": "WB-SA",
+        "script": "TEAMLEASE"
+    }, {
+        "ex": "BSE",
+        "targetPrice": 60,
+        "rcomPrice": 42,
+        "rcomDate": "28-Apr-2018",
+        "rcomTimeScale": "6 to 9 months",
+        "stoploss": 35,
+        "rcomBy": "WB-SA",
+        "script": "CONFIPET"
+    },
+    {
+        "ex": "NSE",
+        "targetPrice": 900,
+        "rcomPrice": 650,
+        "rcomDate": "28-Apr-2018",
+        "rcomTimeScale": "6 to 9 months",
+        "stoploss": 525,
+        "rcomBy": "WB-SA",
+        "script": "ASTEC"
+    },
+    {
+        "ex": "NSE",
+        "targetPrice": 180,
+        "rcomPrice": 130,
+        "rcomDate": "28-Apr-2018",
+        "rcomTimeScale": "6 to 9 months",
+        "stoploss": 110,
+        "rcomBy": "WB-SA",
+        "script": "GUFICBIO"
+    },
+    {
+        "ex": "NSE",
+        "targetPrice": 860,
+        "rcomPrice": 572,
+        "rcomDate": "21-May-2018",
+        "rcomTimeScale": "6 to 9 months",
+        "stoploss": 460,
+        "rcomBy": "PP-SA",
+        "script": "APEX"
+    },
+    {
+        "ex": "NSE",
+        "targetPrice": 138,
+        "rcomPrice": 75,
+        "rcomDate": "22-May-2018",
+        "rcomTimeScale": "6 to 9 months",
+        "stoploss": 73,
+        "rcomBy": "PP-SA",
+        "script": "SUNFLAG"
+    }, {
+        "ex": "NSE",
+        "targetPrice": 1000,
+        "rcomPrice": 380,
+        "rcomDate": "31-May-2018",
+        "rcomTimeScale": "6 to 12 months",
+        "rcomBy": "Hemanth",
+        "script": "STAR"
+    }, {
+        "ex": "NSE",
+        "targetPrice": 1000,
+        "rcomPrice": 325,
+        "rcomDate": "31-May-2018",
+        "rcomTimeScale": "6 to 12 months",
+        "rcomBy": "Hemanth",
+        "script": "EDELWEISS"
     }
 ]
